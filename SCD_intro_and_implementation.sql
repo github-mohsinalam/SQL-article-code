@@ -39,7 +39,7 @@ CREATE TABLE StagingEmployee (
 
 
 
-INSERT INTO DimEmployee (EmployeeID, FirstName, LastName, Gender, DOB, DOJ, Address, Phone)
+INSERT INTO StagingEmployee (EmployeeID, FirstName, LastName, Gender, DOB, DOJ, Address, Phone)
 VALUES
     (3, 'Tom', 'Johnson', 'M', '1992-11-30', '2022-02-20', '456 Pine St, Villageland', '555-9876'),
     (4, 'Alice', 'Brown', 'F', '1988-04-18', '2019-07-15', '102 Cedar St, Hamletville', '555-4321'),
